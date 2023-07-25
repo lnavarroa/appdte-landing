@@ -1,4 +1,4 @@
-# appdte-landing
+# AppDte-landing
 this is the front-end for appdte landing page
 
 Que es Appdte?
