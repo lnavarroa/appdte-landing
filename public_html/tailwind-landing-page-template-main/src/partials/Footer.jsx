@@ -27,47 +27,38 @@ function Footer() {
               </Link>
             </div>
             <div className="text-sm text-gray-600">
-              <Link to="#" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Terms</Link> · <Link to="#" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Privacy Policy</Link>
+              <Link to="#" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Terminos y servicios</Link> · <Link to="#" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Política de privacidad</Link>
             </div>
           </div>
 
           {/* 2nd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Products</h6>
+            <h6 className="text-gray-800 font-medium mb-2">Productos</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Web Studio</Link>
+                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">AppDte</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">DynamicBox Flex</Link>
-              </li>
-              <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Programming Forms</Link>
-              </li>
-              <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Integrations</Link>
-              </li>
-              <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Command-line</Link>
-              </li>                            
+                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Integraciones</Link>
+              </li>                           
             </ul>
           </div>
 
           {/* 3rd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Resources</h6>
+            <h6 className="text-gray-800 font-medium mb-2">Recursos</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Documentation</Link>
+                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Documentación</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Tutorials & Guides</Link>
+                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Tutoriales y guías</Link>
               </li>
               <li className="mb-2">
                 <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Blog</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Support Center</Link>
+                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Soporte</Link>
               </li>
               <li className="mb-2">
                 <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Partners</Link>
@@ -77,27 +68,28 @@ function Footer() {
 
           {/* 4th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Company</h6>
+            <h6 className="text-gray-800 font-medium mb-2">Empresa</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Home</Link>
+                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Inicio</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">About us</Link>
+                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Quienes Somos</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Company values</Link>
+                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Valor empresarial</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Pricing</Link>
+                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Planes</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Privacy Policy</Link>
+                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Política de privacidad</Link>
               </li>
             </ul>
           </div>
 
-          {/* 5th block */}
+          {/* 5th block */} 
+          {/*
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
             <h6 className="text-gray-800 font-medium mb-2">Subscribe</h6>
             <p className="text-sm text-gray-600 mb-4">Get the latest news and articles to your inbox every month.</p>
@@ -113,13 +105,14 @@ function Footer() {
                         <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" fillRule="nonzero" />
                       </svg>
                     </button>
-                  </div>
+                  </div>*/}
                   {/* Success message */}
-                  {/* <p className="mt-2 text-green-600 text-sm">Thanks for subscribing!</p> */}
+                  {/* <p className="mt-2 text-green-600 text-sm">Thanks for subscribing!</p> */}{/*
                 </div>
               </div>
             </form>
-          </div>          
+          </div> 
+          */}
 
         </div>
 
@@ -152,7 +145,7 @@ function Footer() {
           </ul>
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">Made by <a className="text-blue-600 hover:underline" href="https://cruip.com/">Cruip</a>. All rights reserved.</div>
+          <div className="text-sm text-gray-600 mr-4">Sitio Web <a className="text-blue-600 hover:underline" href="/">AppDte</a> derechos reservados 2023</div>
 
         </div>
 
